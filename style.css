@@ -1,0 +1,236 @@
+body {
+    margin: 0 auto;
+}
+
+
+@font-face {
+    font-family: "TrebuchetMS";
+    src: url("../fonts/TrebuchetMS.eot");
+    src: url("../fonts/TrebuchetMS.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/TrebuchetMS.woff") format("woff"),
+        url("../fonts/TrebuchetMS.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+h1 {
+    font-family: "TrebuchetMS";
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 500;
+
+}
+
+.heder-background {
+
+    display: flex;
+    height: 100px;
+    color: #ffffff;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 900px;
+    justify-content: space-between;
+
+}
+
+.paragraph-hedline-one {
+    font-size: 16px;
+    color: #ffffff;
+    margin-left: -10px;
+
+}
+
+.ymaps-geolink {
+    font-family: 18px;
+    position: fixed;
+    top: 5px;
+}
+
+.backgraound-heder {
+    background: url(Img/%D1%81%D0%B2%D0%B5%D1%82.png) center center no-repeat;
+    background-color: #f4f1f4;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+    opacity: 0.900;
+}
+
+
+.logo {
+    background: url(Img/%D0%9F%D1%80%D1%8F%D0%BC%D0%BE%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%203%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F%204.png) center center no-repeat;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 27px;
+    left: 384px;
+
+}
+
+.heder-bottom {
+    background: url(Img/%D0%9F%D1%80%D1%8F%D0%BC%D0%BE%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%204%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png) top center no-repeat;
+    width: 100%;
+    height: 47px;
+    font-family: "Arial";
+}
+
+.menu {
+    margin: 0 auto;
+    max-width: 1000px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50px;
+}
+
+.paragraph-hedline-two {
+    margin-left: -10px;
+}
+
+.anchor-menu {
+    text-decoration: none;
+    font-style: normal;
+    color: #f4f1f4;
+    justify-content: space-between;
+    margin-right: 33px;
+}
+
+
+
+.search-section {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    top: 13px;
+}
+
+
+.anchor-menu:hover {
+    color: #c162e5;
+}
+
+
+
+input {
+    width: 220px;
+    border-radius: 4px;
+}
+
+
+
+.heder-blok-one {
+    position: absolute;
+    right: 450px;
+}
+
+
+
+
+
+button {
+    position: relative;
+    left: 217px;
+    bottom: 22.5px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 100;
+    font-family: "Trebuchet MC";
+}
+
+
+
+
+
+
+
+.backgraound-items-menu {
+    background: url(Img/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%BE%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D1%8F%D0%BC.png) top center no-repeat;
+    width: 20px;
+    height: 13px;
+}
+
+.backgraound-items-menu-two {
+    width: 20px;
+    height: 13px;
+    background: url(Img/%D0%97%D0%B0%D0%BB%D0%B8%D0%B2%D0%BA%D0%B0%20%D1%86%D0%B2%D0%B5%D1%82%D0%BE%D0%BC%20%D0%A1%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%D1%82%D0%B5%D0%BB%D1%8F%D0%BC.png) top center no-repeat;
+}
+
+.backgraound-items-menu-three {
+    width: 20px;
+    height: 13px;
+    background: url(Img/%D0%A3%D1%81%D0%BB%D1%83%D0%B3%D0%B8.png) top center no-repeat;
+}
+
+.backgraound-items-menu-four {
+    width: 20px;
+    height: 13px;
+    background: url(Img/%D0%A1%D1%82%D0%B5%D0%BD%D0%B0.png) top center no-repeat;
+}
+
+.backgraound-items-menu-five {
+    width: 23px;
+    height: 15px;
+    background: url(Img/%D0%9E%20%D0%BD%D0%B0%D1%81.png) top center no-repeat;
+}
+
+.backgraound-items-menu-six {
+    width: 20px;
+    height: 15px;
+    background: url(Img/%D0%9A%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B.png) top center no-repeat;
+}
+
+.backgraound-end-section {
+    background: url(Img/%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%B6%D0%BA%D0%B01.png) top center no-repeat;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    position: absolute;
+    padding-top: 30px;
+    font-family: "Arial";
+}
+
+.backgraound-center {
+    margin: 0 auto;
+    max-width: 910px;
+}
+
+h3 {
+    font-size: 22px;
+    font-variant: small-caps;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.backgraound-img {
+     background: url(Img/%D0%98%D0%BB%D0%BB%D1%8E%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F.png) top right no-repeat;
+    height: 250px;
+    position: relative;
+    float: right;
+    width: 200px;
+    right: 45px;
+}
+
+.key {
+    text-decoration: none;
+    color: white;
+    border-style: solid; /* Стиль рамки вокруг параграфа */
+    border-width:1px 1px 1px 1px;
+    border-radius: 4px;
+    padding: 3px 20px;
+    font-size: 17px;
+    background-color: #7abe36;
+    font-weight: 500;
+    border-color: #7abe36;
+    position: relative;
+    top: 10px;
+
+}
